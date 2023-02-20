@@ -1,0 +1,125 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&family=Lato:wght@400;700&family=Roboto:ital,wght@1,100&family=Rubik+Bubbles&display=swap'); 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+.outer-box{
+    width:100vw;
+    height:100vh;
+    border:2px solid black;
+    background: linear-gradient(to top left,rgb(219, 102, 223),rgb(232, 243, 206));
+}
+
+.inner-box{
+    width:400px;
+    margin:0 auto;
+    position:relative;
+    top:40%;
+    transform:translateY(-50%);
+    padding:20px 40px;
+    background: linear-gradient(to top left,#ffffffff,#ffffff33);
+    backdrop-filter:blur(10px) ;
+    border-radius:8px ;
+    z-index: 2;
+
+}
+
+.signup-header h1{
+    font-size:2.5rem;
+    color:rgba(28, 26, 26, 0.943);
+}
+
+.signup-header p{
+    font-size:0.9rem;
+    color:rgb(92, 89, 89);
+}
+
+.signup-body{
+margin:20px 0;
+/* border:2px solid black; */
+}
+ 
+.signup-body p{
+    
+/* border:2px solid black; */
+    margin:15px 0px;
+}
+
+.signup-body p label{
+    /* border:2px solid rgb(177, 67, 67); */
+    display:block;
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width:100%;
+    padding:10px;
+    border:2px solid rgb(207, 200, 200);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top:4px;
+}
+
+.signup-body p input[type="submit"]{
+    background-color:  rgb(218, 129, 228);
+    /* font-size: 1rem; */
+    border:none;
+    color:white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(184, 80, 196);
+}
+.signup-footer p {
+    text-align: center;
+    color:rgb(117, 109, 109);
+}
+.signup-footer p a {
+    color:rgb(223, 43, 217);
+}
+.circle{
+    width:200px;
+    height: 200px;
+    border-radius:100px;
+    background: linear-gradient(to top right,rgb(228, 187, 227),white);
+    position:absolute;
+    box-shadow: 5px 2px 4px rgb(184, 143, 175);
+}
+
+.c1{
+    top:100px;
+    left:40px;
+}
+
+.c2{
+    bottom:200px;
+    right:40px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
